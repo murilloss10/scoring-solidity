@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "takesCards",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint8",
+								"name": "id",
+								"type": "uint8"
+							},
+							{
+								"internalType": "uint256",
+								"name": "youWin",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "opponentLoses",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Scoring.SpecialCard[]",
+						"name": "",
+						"type": "tuple[]"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint8",
+								"name": "id",
+								"type": "uint8"
+							},
+							{
+								"internalType": "uint256",
+								"name": "youWin",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "opponentLoses",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Scoring.SpecialCard[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Scoring.sol": "Scoring"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Scoring.sol": {
+			"keccak256": "0xedb9c19881f8cad5057ad75e500b781e2899f40188f39cacb26fd8188e4c7646",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1235c575e90dc7e9754c538ffe20855e547593c084882c4c8293341030bcce79",
+				"dweb:/ipfs/QmT7KgwyNLuYwewbi7DHFrfBHqJLeUQxU2NjGMkC4BhrD6"
+			]
+		}
+	},
+	"version": 1
+}
